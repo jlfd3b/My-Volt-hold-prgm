@@ -14,7 +14,7 @@
   
 
 
-#define TEST1_CAN_TRANSFER_ID 0x000   // can id
+#define TEST1_CAN_TRANSFER_ID 0x7E1   // can id
 
 #define TEST1_CAN0_TX_PRIO 1 
 

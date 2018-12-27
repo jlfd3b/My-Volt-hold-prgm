@@ -147,16 +147,9 @@ void loop()
 {  
 
 on(); 
-
-static unsigned long lastTime = 0; 
-
-
-if ((millis() - lastTime) > 2500) // keep alive timer 
-{ 
-lastTime = millis(); 
-
-
 keepalive(); // go to keepalive routine 
+
+delay(2500)  // wait 2.5 seconds
 
 } 
 } 

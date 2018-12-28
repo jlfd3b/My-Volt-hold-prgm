@@ -2,13 +2,13 @@
 #include "Arduino.h" 
 
 #include "SamNonDuePin.h" 
-#include "variant.h" 
+// #include "variant.h" 
 
 #include <due_can.h> 
 
 #include <mcp_can.h> 
 
-#include <SPI.h> 
+// #include <SPI.h> 
 
 
   
@@ -149,7 +149,7 @@ void loop()
 on(); 
 keepalive(); // go to keepalive routine 
 
-delay(2500)  // wait 2.5 seconds
+delay(2500);  // wait 2.5 seconds
 
 } 
-} 
+

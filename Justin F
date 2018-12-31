@@ -80,7 +80,7 @@ frame1.rtr = 1;
 //Below we set the 8 data bytes in 32 bit (4 byte) chunks 
 //Bytes can be set individually with frame1.data.bytes[which] = something 
 
-frame1.data.low = 0x07AE3106; 
+frame1.data.low = 0x07AExxxx; 
 
 
 frame1.data.high = CAN_MSG_DUMMY_DATA; 
@@ -124,7 +124,7 @@ frame1.rtr = 1;
  
 
 
-frame1.data.low = 0x013E0000; 
+frame1.data.low = 0x013xxxxx; 
  
 frame1.data.high = CAN_MSG_DUMMY_DATA; 
  
